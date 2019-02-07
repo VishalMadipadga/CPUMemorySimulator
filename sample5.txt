@@ -1,0 +1,69 @@
+//this program multiplies two numbers and shows the operation and output on the screen for example 3 X 6 = 18, you can modify the numbers to multiply below
+2 //load multiplicand into AC
+51
+16 //copy value in AC to Y
+2  //load multiplier into AC
+52 
+14 //copy value in AC to X
+26 //decrement X
+2  //load multiplicand into AC
+51
+11 //Add Y to AC
+16 //Copy AC to Y
+26 //decrement X
+15 //copy X to AC
+22 //jump to address 7 if AC is not 0
+7
+2 //load multiplicand into AC
+51
+9 //display mutliplicand
+1
+2 //load space into AC
+54
+9 //print space
+2
+2 //load X into AC
+55
+9 //print X
+2
+2 //load space into AC
+54
+9 //print space
+2 
+2 //load multiplier to AC
+52
+9 //print multiplier
+1
+2 //load space to AC
+54
+9 //print space
+2
+2 //load = into AC
+53
+9 //print equals
+2
+2 //load space into AC
+54
+9 //print space
+2
+17 //copy Y to AC
+9
+1 //print Y
+50
+
+//data
+
+3  //multiplicand (you can modify)
+6  //multiplier  (you can modify)
+61 //ASCII character for = 
+32 //ASCII character for space
+88 //ASCII character for X
+
+
+
+
+
+
+
+
+
